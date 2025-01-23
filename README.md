@@ -1,2 +1,2 @@
 # Portfolio-rodrigo
- Portifolio para apresentar meus principais projetos
+ Portfólio para apresentar meus principais projetos
