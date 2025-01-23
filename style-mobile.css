@@ -61,12 +61,13 @@ main{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-
+    margin: auto;
 }
 main > h1 {
     padding: 20px;
     margin: auto;
     text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.555);
 }
 
 div#perfil > img{
@@ -79,3 +80,10 @@ div#sobre{
     padding: 30px;
 }
 
+div#sobre > h2{
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.555);
+}
