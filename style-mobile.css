@@ -93,7 +93,7 @@ div#sobre > h2{
     font-size: 2em;
     padding: 20px;
     margin: auto;
-    width: 400px;
+    width: 500px;
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.555);
 }
@@ -112,4 +112,15 @@ div#sobre > ul > li{
 div#sobre > ul > li:hover{
     background-image: linear-gradient(to bottom, rgb(247, 247, 188), rgba(133, 248, 242, 0.692));
     color: black;
+}
+
+section#bio{
+    background-color: white;
+    color: black;
+    max-width: 500px;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 50px;
+    border-radius: 20px;
 }
