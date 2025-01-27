@@ -115,12 +115,41 @@ div#sobre > ul > li:hover{
 }
 
 section#bio{
-    background-color: white;
+    background-color: rgb(231, 231, 231);
     color: black;
     max-width: 500px;
+    min-width: 200px;
     margin: 20px;
     padding: 20px;
     text-align: justify;
     text-indent: 50px;
     border-radius: 20px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.466);
+}
+
+section#projetos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 500px;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    /* margin: 20px;
+    padding: 20px; */
+}
+section#projetos > h1{
+    border: 1px solid black;
+    align-content: flex-start;
+}
+div#blog{
+    border: 1px solid black;
+    
+}
+div#galeria{
+    border: 1px solid black;
+}
+div#login{
+    border: 1px solid black;
 }
