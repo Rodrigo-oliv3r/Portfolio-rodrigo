@@ -172,3 +172,28 @@ div#login{
     height: 150px;
     border: 1px solid black;
 }
+
+section#redes_sociais {
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-self: center;
+    height: 300px;
+    
+    border: 1px solid black;
+}
+
+section#redes_sociais > div > img{
+    height: 50px;
+    padding: 5px;
+}
+
+section#redes_sociais > div {
+    border: 1px solid black;
+}
+section#redes_sociais > div > P {
+    border: 1px solid black;
+    display: inline;
+}
