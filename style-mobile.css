@@ -177,10 +177,9 @@ section#redes_sociais {
     margin: 30px;
     padding: 10px;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: end;
+    flex-flow: row wrap;
     align-self: center;
-    height: 300px;
+    
     
     border: 1px solid black;
 }
@@ -188,12 +187,38 @@ section#redes_sociais {
 section#redes_sociais > div > img{
     height: 50px;
     padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
-section#redes_sociais > div {
+section#redes_sociais > div.padrao {
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
-section#redes_sociais > div > P {
-    border: 1px solid black;
-    display: inline;
+
+section#redes_sociais > div.padrao > a {
+    display: none;
 }
+
+section#redes_sociais > div#face > img:hover{
+    background-color: rgb(88, 173, 243) ;  
+}
+
+
+section#redes_sociais > div#insta > img:hover{
+    background-image: linear-gradient(45deg, #fcd347, #fea843, #f87652, #ec5572, #d84683, #ad40a3, #6d39c6);
+}
+section#redes_sociais > div#whats > img:hover{
+    background-color: rgb(93, 253, 160) ;  
+}
+section#redes_sociais > div#git > img:hover{
+    background-color: rgb(142, 102, 253) ;  
+}
+section#redes_sociais > div#lk > img:hover{
+    background-color: #0a8cd2 ;  
+}
+
+
