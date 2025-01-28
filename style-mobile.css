@@ -118,8 +118,7 @@ div#sobre > ul > li:hover{
 section#bio{
     background-color: rgb(231, 231, 231);
     color: black;
-    max-width: 500px;
-    min-width: 200px;
+    width: 90vw;
     margin: 20px;
     padding: 20px;
     text-align: justify;
