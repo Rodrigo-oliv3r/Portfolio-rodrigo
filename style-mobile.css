@@ -191,7 +191,8 @@ section#redes_sociais > div > img{
     padding: 5px;
     cursor: pointer;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid white;
+    box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.555);
 }
 
 section#redes_sociais > div.padrao {
@@ -202,9 +203,29 @@ section#redes_sociais > div.padrao {
     padding: 10px;
 }
 
+/* Botão de redes socias */
 section#redes_sociais > div.padrao > a {
     display: none;
+    width: 120px;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    /* box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.555); */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    position: relative;
+    transform: translate(50%, 50%);
+    top: -20px;
+    left: -70px;
 }
+section#redes_sociais > div.padrao > a:hover{
+    background-color: rgb(88, 173, 243);
+}
+
 
 section#redes_sociais > div#face > img:hover{
     background-color: rgb(88, 173, 243) ;  
