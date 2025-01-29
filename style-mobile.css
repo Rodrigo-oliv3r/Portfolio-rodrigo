@@ -176,8 +176,10 @@ div#login{
 section#redes_sociais {
     margin: 30px;
     padding: 10px;
+    width: 300px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+    justify-content: center;
     align-self: center;
     
     
@@ -196,6 +198,7 @@ section#redes_sociais > div.padrao {
     border: 1px solid black;
     display: flex;
     align-items: center;
+    align-self: center;
     padding: 10px;
 }
 

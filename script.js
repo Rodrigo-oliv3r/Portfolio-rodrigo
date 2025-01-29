@@ -1,4 +1,4 @@
-
+// Botões da pagina inicial
 function clicarSobre(){
     if (bio.style.display == 'none'){
         bio.style.display = 'block'
@@ -35,6 +35,44 @@ function clicarRedes(){
     }
 }
 
-function redeStyle(){
-    estilo.style.display = 'block'
+// Botões de rede sociais
+// Facebook
+function facebookEntrar() {
+    estilo_face.style.display = 'block'
 }
+function facebookSair(){
+    estilo_face.style.display = 'none'
+}
+
+// Instagram
+function instagramEntrar() {
+    estilo_insta.style.display = 'block'
+}
+function instagramSair(){
+    estilo_insta.style.display = 'none'
+}
+
+// Whatsapp
+function whatsappEntrar(){
+    estilo_whats.style.display = 'block'
+}
+function whatsappSair(){
+    estilo_whats.style.display = 'none'
+}
+
+// Github
+function githubEntrar(){
+    estilo_git.style.display = 'block'
+}
+function githubSair(){
+    estilo_git.style.display = 'none'
+}
+
+// Linkedin
+function linkedinEntrar(){
+    estilo_lk.style.display = 'block'
+}
+function linkedinSair(){
+    estilo_lk.style.display = 'none'
+}
+
