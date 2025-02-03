@@ -225,6 +225,10 @@ section#redes_sociais > div.padrao > a {
     left: -70px;
 }
 
+
+section#redes_sociais > div.padrao > a {
+    transition: all 2s;
+}
 /* Botoes de redes socias animados */
 /* Facebook */
 section#redes_sociais > div#face > img:hover{
@@ -232,8 +236,8 @@ section#redes_sociais > div#face > img:hover{
 }
 section#redes_sociais > div#face > a:hover{
     background-color: rgb(88, 173, 243);
-    transition: all 2s;
-
+    transition-timing-function: linear;
+    position: absolute;
 }
 /* Instagram */
 section#redes_sociais > div#insta > img:hover{
