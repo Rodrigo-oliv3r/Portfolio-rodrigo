@@ -182,7 +182,7 @@ section#redes_sociais {
     padding: 10px;
     width: 300px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-self: center;
     
