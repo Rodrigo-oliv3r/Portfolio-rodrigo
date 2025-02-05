@@ -30,13 +30,17 @@ header{
     align-items: center;
 }
 header > a#contato {
-    
     padding: 10px;
     text-decoration: none;
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.679);
     border-radius: 0px 0px 8px 8px;
     box-shadow: 0px 2px 1px rgba(255, 255, 255, 0.173);
+    text-align: center;
+}
+
+header > a#contato > p#email{
+    font-size: .7em;
 }
 header > a > img {
     margin-top: 4px;
@@ -78,7 +82,7 @@ main > h1 {
 div#perfil > img{
     height: 300px;
     background-image: radial-gradient(rgb(247, 247, 188), rgba(133, 248, 242, 0.692));
-    border-radius: 50%;
+    border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(247, 247, 188, 0.404);
 }
 div#sobre{
@@ -236,8 +240,6 @@ section#redes_sociais > div#face > img:hover{
 }
 section#redes_sociais > div#face > a:hover{
     background-color: rgb(88, 173, 243);
-    transition-timing-function: linear;
-    position: absolute;
 }
 /* Instagram */
 section#redes_sociais > div#insta > img:hover{
