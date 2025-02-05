@@ -182,7 +182,7 @@ section#redes_sociais {
     padding: 10px;
     width: 300px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-self: center;
     
@@ -210,6 +210,7 @@ section#redes_sociais > div.padrao {
 }
 
 /* Botão de redes socias */
+
 section#redes_sociais > div.padrao > a {
     display: none;
     width: 120px;
@@ -254,7 +255,7 @@ section#redes_sociais > div#whats > img:hover{
 }
 section#redes_sociais > div#whats > a:hover{
     background-color: rgb(93, 253, 160) ;
-    color: black; 
+    color: black;
 }
 /* Github */
 section#redes_sociais > div#git > img:hover{

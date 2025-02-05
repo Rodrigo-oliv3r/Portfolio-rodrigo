@@ -37,7 +37,7 @@ function clicarRedes(){
 
 // Botões de rede sociais
 // Facebook
-function facebookEntrar() {
+function facebookEntrar()  {
     estilo_face.style.display = 'block'
 }
 function facebookSair(){
